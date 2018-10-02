@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Employees.Models.Department>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+
+<link href="~/Style/Style.css" rel="stylesheet" />
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+	<ul class="navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link" href="">@Html.ActionLink("Home", "Index")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item">
+			<a class="nav-link" href="">@Html.ActionLink("Employees", "Index", "Employees")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item">
+			<a class="nav-link" href="">@Html.ActionLink("Departments", "Index", "Departments")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item form-inline">
+			<a class="nav-link" href=""><i class="fa fa-sign-out"></i>@Html.ActionLink("Logout", "LoginAccount", "User") </a>
+		</li>
+
+	</ul>
+</nav>
+
+
+<section>
+	<button type="button" class="btn btn-outline-primary">@Html.ActionLink("Create New", "Create")</button>
+
+
+	<table class="table table-hover table-bordered table-responsive-xl">
+		<thead style="Background-color: lightskyblue; text-align: center;">
+			<tr>
+				<th>@Html.DisplayNameFor(model => model.Name)</th>
+				<th>@Html.DisplayNameFor(model => model.Description)</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@Html.DisplayFor(modelItem => item.Name)</td>
+					<td>@Html.DisplayFor(modelItem => item.Description)</td>
+
+					<td>
+						<button class="btn btn-warning fa fa-edit">@Html.ActionLink("Edit", "Edit", new {id = item.Id})</button>
+						<button class="btn btn-info">@Html.ActionLink("Details", "Details", new {id = item.Id})</button>
+						<button class="btn btn-danger">@Html.ActionLink("Delete", "Delete", new {id = item.Id})</button>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</section>

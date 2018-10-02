@@ -1,0 +1,158 @@
+﻿
+    h2 {
+	    text-align: center;	
+    }
+
+    hr {
+	    width: 20%;
+	    color: lightskyblue
+    }
+
+    table {
+	    margin-top: 60px;
+    }
+
+    section button {
+	    float: right;
+	    margin-bottom: 40px;
+    }
+
+    .navbar {
+      
+	    margin-bottom: 30px;
+	    padding-left: 84px;
+    }
+
+    h2 {
+	    text-align: center;
+	    margin-top: 60px;
+    }
+
+    ul li a {
+	    color: #ffffff;
+	    margin-left: 25px;
+	    vertical-align: 15px;
+    }
+
+	li a:hover, .btn-danger a, .btn-warning a{
+		color: #ffffff;
+	}
+
+    .btn-outline-info:hover {
+	    color: #ffffff;      
+    }
+
+    .VerticalSeparator {
+	    border-left: 1px solid #ffffff; 
+	    width: 1px; 
+	    height: 20px;
+	    margin-top: 20px;
+	    margin-left: 20px;
+    }
+
+    .pagination {
+	    float: right;
+	    margin-top: 10px;
+    }
+
+    td button {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    padding-left: 20px;
+	    color: #ffffff;     
+    }
+
+    .btn-danger {
+	    margin-right: 20px;
+    }
+  
+    .btn-warning {
+	    width: 77px;
+    }
+
+	.btn-info {
+		width: 46px;
+		margin-right: 20px;
+	}
+
+	.btn-info a {
+		color: #ffffff !important;
+	}
+
+    #success_message {
+	    display: none;
+    }
+
+    .Add-form {
+	    margin: 100px auto;
+	    max-width: 446px;	
+    }
+
+    .navbar {
+      
+	    margin-bottom: 30px;
+	    padding-left: 84px;
+    }
+
+    h2 {
+	    text-align: center;
+	    margin-top: 60px;
+    }
+
+    ul li a {
+	    color: #ffffff;
+	    margin-left: 25px;
+	    vertical-align: 15px;
+    }
+
+    .VerticalSeparator {
+	    border-left: 1px solid #ffffff; 
+	    width: 1px; 
+	    height: 20px;
+	    margin-top: 20px;
+	    margin-left: 20px;
+    }
+
+    .card-body {
+	    padding-left:150px;
+    }
+
+    .btn-info {
+	    margin-left: 91px;
+	    width: 200px;
+	    margin-top: 20px;
+    }
+
+    .card {
+	    margin-top: 50px;
+    }
+
+    .btn-secondary{
+	    margin-left: 459px;
+	    width: 194px;    
+    }
+
+    .btn-secondary a{
+	    color: #ffffff;      
+    }
+
+    .border {
+	    border-color: transparent;
+    }
+
+
+	td .btn-info {
+		width: 67px;
+		margin-left: 6px;
+		margin-top: 11px;
+	}
+
+    li a:hover, .btn-danger a, .btn-warning a {
+	    color: #ffffff;
+    }
+
+
+
+	/*Search bar*/
+  
+

@@ -1,0 +1,32 @@
+﻿@model Employees.Models.Employee
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<link href="~/Style/Style.css" rel="stylesheet" />
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+	<ul class="navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link" href="">@Html.ActionLink("Home", "Index")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item">
+			<a class="nav-link" href="">@Html.ActionLink("Employees", "Index", "Employees")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item">
+			<a class="nav-link" href="">@Html.ActionLink("Departments", "Index", "Departments")</a>
+		</li>
+		<li class="VerticalSeparator"></li>
+		<li class="nav-item form-inline">
+			<a class="nav-link" href=""><i class="fa fa-sign-out"></i>@Html.ActionLink("Logout", "LoginAccount", "User") </a>
+		</li>
+
+	</ul>
+</nav>
+
+
+@Html.Partial("_DeleteEmployee")
+

@@ -29,5 +29,9 @@ namespace Employees.Models
         {
             return new ApplicationDbContext();
         }
-    }
+
+		public System.Data.Entity.DbSet<Employees.Models.Employee> Employees { get; set; }
+
+		public System.Data.Entity.DbSet<Employees.Models.Department> Departments { get; set; }
+	}
 }
